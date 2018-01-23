@@ -13,7 +13,7 @@ class SearchBox(object):
         xpr = '#portal-searchbox input[name=SearchableText]'
         return self.browser.css(xpr).first.attrib['placeholder']
 
-    @ property
+    @property
     def form_action(self):
         xpr = '#portal-searchbox form'
         return self.browser.css(xpr).first.attrib['action']
