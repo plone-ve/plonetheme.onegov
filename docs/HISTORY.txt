@@ -4,6 +4,9 @@ Changelog
 3.1.2 (unreleased)
 ------------------
 
+- Added more strings classifiers items for the metadata package
+  [macagua]
+
 - Added Spanish translation.
   [macagua]
 
